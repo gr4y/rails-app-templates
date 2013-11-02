@@ -23,7 +23,7 @@ end
 run "bundle install"
 run "bundle exec rails g rspec:install"
 run "bundle exec guard init rspec"
-run "bundle exe rails g simple_form:install"
+run "bundle exec rails g simple_form:install"
 
 #===========================================
 # disable some generators, add rspec, haml and factory_girl
